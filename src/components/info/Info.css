@@ -1,0 +1,133 @@
+.bodyInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  width: 100%;
+}
+
+.photoInfo {
+  max-width: 768px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #000;
+  mix-blend-mode: darken;
+  object-fit: cover;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.dropDown {
+  display: flex;
+  width: 335px;
+  height: 30px;
+  padding: 10px 0px 10px 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--Red, #FF6060);
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.dropDown.rotated {
+  padding-right: 10px; /* Ajoutez un padding-right pour compenser le décalage */
+}
+
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 142.6%; /* 18.538px */
+  z-index: 1;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-button {
+background-color: #4CAF50;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 10px;
+z-index: 1;
+transition: all 0.3s ease;
+}
+
+.dropdown-content.open {
+display: block;
+}
+
+.dropdown-content p {
+margin: 0;
+}
+
+.arrow {
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.dropContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 758px;
+  width: 100%;
+}
+
+.dropContent {
+  max-width: 728px;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  background: grey;
+  transition: transform 0.3s ease;
+  transform: translateY(10%);
+}
+
+.dropContent:hover {
+  transform: translateY(0);
+}
+
+.arrow {
+  transition: transform 0.3s ease; /* Ajoute une transition pour une animation fluide */
+  transform-origin: center;
+  width: 33px;
+  height: 33px; /* Ajuste le point de transformation au centre de l'image */
+}
+
+.rotated {
+
+  transform: rotate(180deg); /* Fait pivoter l'image de 180 degrés */
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

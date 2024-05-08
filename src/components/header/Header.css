@@ -1,14 +1,17 @@
-.Banner {
+.navBar {
     display: flex;
+    max-width: 768px;
     width: 100%;
     align-items: center;
 }
 
-.LogoKasa{
-    background-color: transparent;
+.photoKasa {
+    width: 145px;
+    height: 46.881px;
+    flex-shrink: 0;
 }
 
-.NavBar {
+.linkNav {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -16,7 +19,8 @@
     flex: 1 0 0;
 }
 
-.Link1 {
+.linkHome,
+.linkAbout {
     color: #000;
     text-align: right;
     font-family: Montserrat;
@@ -25,14 +29,4 @@
     font-weight: 500;
     line-height: 142.6%; /* 17.112px */
     text-decoration-line: underline;
-}
-
-.Link2 { 
-    color: #000;
-    text-align: right;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 142.6%; /* 17.112px */
 }
