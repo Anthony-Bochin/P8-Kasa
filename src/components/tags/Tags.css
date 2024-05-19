@@ -1,0 +1,24 @@
+.tags {
+    padding: 2px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    background-color: #FF6060 ;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 142.6%; /* 14.26px */
+}
+
+.tags_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

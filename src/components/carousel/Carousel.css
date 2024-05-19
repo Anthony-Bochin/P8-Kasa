@@ -1,0 +1,36 @@
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    
+    height: 250px;
+    min-height: 233px;
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .left-arrow {
+    left: 5px;
+  }
+  
+  .right-arrow {
+    right: 5px;
+  }
+  
