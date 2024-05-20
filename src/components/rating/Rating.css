@@ -1,0 +1,16 @@
+.star_Innactive {
+    color: #E3E3E3;
+    background-color: #E3E3E3;
+    fill: #E3E3E3;
+}
+
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.inactive {
+    fill: grey;
+}

@@ -1,0 +1,11 @@
+.hostt {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10.5px;
+    flex-shrink: 0;
+}
+
+.host-photo {
+    border-radius: 50%;
+}

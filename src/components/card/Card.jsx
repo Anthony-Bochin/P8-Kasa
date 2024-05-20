@@ -5,6 +5,8 @@ import arrow from '../../assets/arrow2.png'
 import  { useState } from 'react';
 import Carousel from '../carousel/Carousel';
 import Tags from '../tags/Tags.jsx';
+import Rating from '../rating/Rating.jsx';
+import Host from '../../components/host/Host.jsx'
 
 const Card = () => {
     const {state} = useLocation();
@@ -37,7 +39,8 @@ const Card = () => {
       </div>
       <div>
         <div className='stars_Container'>
-
+            <Rating  rating={state.rating}  />
+            <Host host={state.host.name} photo={state.host.picture} />
         </div>
         <div className='information_Container'>
             <div>
