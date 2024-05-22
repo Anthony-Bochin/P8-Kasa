@@ -7,10 +7,15 @@
 
 .stars {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    flex-direction: row;     
 }
 
 .inactive {
     fill: grey;
+}
+
+.active,
+.inactive {
+    width: 30px;
+    height: 18px;
 }

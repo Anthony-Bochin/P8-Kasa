@@ -90,7 +90,8 @@ details {
 
 .stars_Container {
     display: flex;
-    width: 135.5px;
+    justify-content: space-between;
+    
     height: 33px;
     gap: 10.5px;
     flex-shrink: 0;

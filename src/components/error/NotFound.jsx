@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <div className='error_Container' >
         <img src={error} alt='error_logo' className='error_image' ></img>
-        <p className='title'>Oups! La page que vous demandez n'existe pas.</p>
+        <p className='error_title'>Oups! La page que vous demandez n'existe pas.</p>
         <p className='subtile' >Retourner sur la page d'accueil</p>
     </div>
   );

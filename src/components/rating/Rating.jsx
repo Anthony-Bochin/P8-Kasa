@@ -16,7 +16,7 @@ const Rating = ({ rating }) => {
     const starsArray = [];
   
     for (let i = 0; i < active; i++) {
-      starsArray.push(<span key={i}> <img src={star_active} alt='start_checked'/> </span>);
+      starsArray.push(<span key={i}> <img src={star_active} alt='start_checked' className='active' /> </span>);
     }
     for (let i = 0; i < inactive; i++) {
       starsArray.push(<span key={active + i}><img src={star_inactive} alt='start_checked' className='inactive' /></span>);
