@@ -8,4 +8,16 @@
 
 .host-photo {
     border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.host-name {
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 17.112px */
 }

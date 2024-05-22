@@ -37,20 +37,14 @@ const Card = () => {
       <div className='tags_Container'>
         <Tags  tags={state.tags} />
       </div>
-      <div>
         <div className='stars_Container'>
             <Rating  rating={state.rating}  />
-            <Host host={state.host.name} photo={state.host.picture} />
-        </div>
-        <div className='information_Container'>
             <div>
-
+              <Host host={state.host.name} photo={state.host.picture} />
             </div>
-            <div>
-
-            </div>
+            
         </div>
-      </div>
+
       <div className='dropdown_Container'>
         <details className='description' open={isOpen.description} onToggle={() => toggle('description')} >
             <summary>Description <span> <img src={arrow}  className={`arrow2 ${isOpen.description ? 'rotated' : ''}`}    alt='arrow'   /> </span> </summary>

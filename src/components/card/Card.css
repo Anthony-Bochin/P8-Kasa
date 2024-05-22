@@ -86,3 +86,12 @@ details {
     flex-direction: column;
     gap: 10px;
 }
+
+
+.stars_Container {
+    display: flex;
+    width: 135.5px;
+    height: 33px;
+    gap: 10.5px;
+    flex-shrink: 0;
+}
